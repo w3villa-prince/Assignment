@@ -1,0 +1,143 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+ }
+ body{
+    overflow-x: hidden;
+ }
+ 
+ .banner{
+    height: 80vh;
+    background-image: url(/IMG/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .box{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 45px;
+      position: relative;
+
+       top: -100px;
+ }
+  .box .box-1{
+    /* position: absolute; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     /* top: 0; */
+     padding: 6px;
+      
+
+ }
+ .text-1{
+     align-items: center;
+    padding: 3px;
+    color: azure;
+    padding-top: 210px;
+    padding-left: 50px;
+ }
+ .text-1 p{
+    font-size: 25px;
+    
+}
+
+.text-1 h1{
+    font-size: 50px;
+    
+}
+.head{
+    
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+}
+.head .a{
+    color:  whitesmoke;
+}
+.img-box-2{
+   
+    width: 100%;
+    height: 200px;
+    /* margin: auto; */
+}
+.img-box-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-2{
+    background-image: url(/IMG/2.webp);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text-class{
+    position: relative;
+}
+ .text-class .text{
+   
+    /* position: absolute; */
+    margin-right: 0;
+    right: 5px;
+    top: 100px;
+height: 250px;
+    /* height: 200px; 
+    width: 100%; */
+
+    justify-content: center;
+
+}
+.banner-3{
+    background-image: url(/IMG/baner7.webp);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text-class-2{
+    position: relative;
+}
+ .text-class-2 .text{
+   
+    /* position: absolute; */
+    margin-right: 0;
+    right: 5px;
+    top: 80px;
+    left: 5px;
+height: 150px;
+    /* height: 200px; 
+    width: 100%; */
+
+    justify-content: center;
+
+}
+
+.icon{
+    /* justify-items: center;
+    align-items: center; */
+    /* height: 60px;
+    width: 60px; */
+}
+.fa-file {
+    font-size: 50px;
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

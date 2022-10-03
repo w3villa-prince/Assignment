@@ -1,0 +1,133 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner{
+    background-image: url(/IMG/banner.webp);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+h1{
+      
+    color: whitesmoke;
+}
+ 
+#text{
+    color:whitesmoke;}
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+    }
+    .upbar{
+        margin: -5;
+        
+    }
+    
+ 
+section.up-bar {
+    position: relative;
+    height: 180px;
+}
+ 
+
+ .upbar-child {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* left: 1px; */
+    top: -102px;
+    /* padding-left: 0; */
+   
+
+
+}
+.text-class{
+    position: relative;
+}
+ .text-class .text{
+   
+    /* position: absolute; */
+    margin-right: 0;
+    right: 5px;
+    top: 100px;
+height: 250px;
+    /* height: 200px; 
+    width: 100%; */
+
+    justify-content: center;
+
+}
+.banner-2{
+    background-image: url(/IMG/2.webp);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text-box-2{
+     
+}
+.img-box{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.img-box-2{
+   
+    width: 100%;
+    height: 200px;
+    /* margin: auto; */
+}
+.img-box-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-3{
+    background-image: url(/IMG/baner7.webp);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text-class-2{
+    position: relative;
+}
+ .text-class-2 .text{
+   
+    /* position: absolute; */
+    margin-right: 0;
+    right: 5px;
+    top: 80px;
+    left: 5px;
+height: 150px;
+    /* height: 200px; 
+    width: 100%; */
+
+    justify-content: center;
+
+}
